@@ -1,0 +1,14 @@
+<!doctype html>
+<link rel="stylesheet" href="css/game.css">
+<body>
+    <audio id="bgm" src="assets/sound/201-overworld-bgm.mp3" type="audio/mpeg" autoplay="autoplay"></audio>
+    <audio id="sound" type="audio/wav"></audio>
+    <!-- build:js assets/scripts/game.js -->
+    <script src="code/chapter/16_game.js" charset="utf-8"></script>
+    <script src="code/levels.js" charset="utf-8"></script>
+    <!-- endbuild -->
+    <script>
+      // runGame(GAME_LEVELS, DOMDisplay);
+      runGame(GAME_LEVELS, CanvasDisplay);
+    </script>
+</body>
